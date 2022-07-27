@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora con JavaScript</title>
+<link type="text/css" href="estilo.css" rel="stylesheet">
+<link rel="stylesheet" href="./calcu.css">
+</head>
+
+<body >
+
+<table class="calculadora">
+<tr>
+  <td colspan="4"><span id="resultado"></span></td>
+</tr>
+<tr>
+  <td><button id="siete"value = '7' onclick="imprimir(7)">7 </button></td>
+  <td><button id="ocho" value = '8' onclick="imprimir(8)">8</button></td>
+  <td><button id="nueve"value = '9' onclick="imprimir(9)" >9</button></td>
+  <td><button id="dividir" value = '/' onclick="dividir()">/</button></td>
+</tr>
+<tr>
+  <td><button id="cuatro"  value="4" onclick="imprimir(4)">4</button></td>
+  <td><button id="cinco"  value="5" onclick="imprimir(5)">5</button></td>
+  <td><button id="seis"  value="6" onclick="imprimir(6)">6</button></td>
+  <td><button id="multiplicar"  value="*" onclick="multiplicar()">*</button></td>
+</tr>
+<tr>
+  <td><button id="uno" value="1" onclick="imprimir(1)">1</button></td>
+  <td><button id="dos" value="2" onclick="imprimir(2)" >2</button></td>
+  <td><button id="tres"value="3" onclick="imprimir(3)" >3</button></td>
+  <td><button id="menos" value="-" onclick="restar()">-</button></td>
+</tr>
+<tr>
+  <td><button id="igual"value="=" onclick="respuesta()" >=</button></td>
+  <td><button id="borrar" value="C" onclick="limpiar()">C</button></td>
+  <td><button id="cero" value="0" onclick="imprimir(0)">0</button></td>
+  <td><button id="mas" value="+" onclick="sumar()">+</button></td>
+</tr>
+</table>
+
+<script src="./fiunciones.js"></script>
+</body>
+</html>
